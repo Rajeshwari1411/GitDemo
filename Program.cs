@@ -1,21 +1,18 @@
 ﻿using System;
-public class Exercise2
+public class Exercise3
 {
     public static void Main()
     {
-        int num1, num2, num3;
+        Console.Write("Enter a number: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Input the first number to multiply: ");
-        num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter another number: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Input the second number to multiply: ");
-        num2 = Convert.ToInt32(Console.ReadLine());
-
-        Console.Write("Input the third number to multiply: ");
-        num3 = Convert.ToInt32(Console.ReadLine());
-
-        int result = num1 * num2 * num3;
-        Console.WriteLine("Output: {0} x {1} x {2} = {3}",
-                            num1, num2, num3, result);
+        Console.WriteLine("{0} + {1} = {2}", num1, num2, num1 + num2);
+        Console.WriteLine("{0} - {1} = {2}", num1, num2, num1 - num2);
+        Console.WriteLine("{0} x {1} = {2}", num1, num2, num1 * num2);
+        Console.WriteLine("{0} / {1} = {2}", num1, num2, num1 / num2);
+        Console.WriteLine("{0} mod {1} = {2}", num1, num2, num1 % num2);
     }
 }
