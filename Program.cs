@@ -1,12 +1,14 @@
 ﻿using System;
-public class Exercise9
-{
-    public static void Main()
-    {
-        Console.Write("Enter the amount of Celsius: ");
-        int celsius = Convert.ToInt32(Console.ReadLine());
+using System.Collections.Generic;
 
-        Console.WriteLine("Kelvin = {0}", celsius + 273);
-        Console.WriteLine("Fahrenheit = {0}", celsius * 18 / 10 + 32);
+public class Exercise10
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("\nInput first integer:");
+        int x = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Input second integer:");
+        int y = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine((x < 0 && y > 0) || (x > 0 && y < 0));
     }
 }
