@@ -1,12 +1,21 @@
 ﻿using System;
-class Exercise14
+
+class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        float celsius = 40;
-        Console.WriteLine("Temperature in celsius is: " + celsius);
-        float fahrenheit = ((celsius * 9) / 5) + 32;
-        Console.WriteLine("Temperature in Fahrenheit is: " + fahrenheit);
-        Console.ReadKey();
+
+        double usd = 0;
+        double inr = 0;
+        double value = 0;
+
+        Console.Write("Enter amount in USD: ");
+        usd = double.Parse(Console.ReadLine());
+
+        Console.Write("Enter the USD value :");
+        value = double.Parse(Console.ReadLine());
+
+        inr = usd * value;
+        Console.WriteLine("USD " + usd + "-> INR " + inr);
     }
 }
