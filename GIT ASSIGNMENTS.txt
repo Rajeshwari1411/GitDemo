@@ -1,0 +1,92 @@
+GIT ASSIGNMENT 1
+
+1.$ git version
+2.$ git config --global user.name "Rajeshwari1411"
+3.$ git config --global user.email "rajeshwarijayamani2001@gmail.com"
+4.$ mkdir git
+5.$ cd git
+6.$ git init GitRepository
+7.$ ls -al
+8.$ git add welcome.txt
+9.$ git commit -m "committed first file"
+10.$ git status
+11.$ git remote add origin https://github.com/Rajeshwari1411/Gitrepository.git
+12.$ git push origin master
+
+GIT ASSIGNMENT 2
+
+1.$ git log
+2.$ git log --online
+3.$ touch.gitignore
+4.$ add.log log\*/log command in gitignore
+5.$ git status -ignored
+6.$ git check -ignore*
+
+
+GIT ASSIGNMENT 3
+
+BRANCHING:
+1.$ git branch GitNewBranch
+2.$ git branch
+3.$ git checkout GitNewBranch
+4.$ git branch
+5.$ touch index.html
+6.$ vi index.html
+7.$ git add
+8.$ git commit -m "Added HTML tag"
+9.$ git status
+
+MERGING:
+1.$ git checkout master
+2.$ git branch
+3.$ git diff master.GitNewBranch
+4.$ git merge GitNewBranch
+5.$ git log --oneline --decorate --graph
+6.$ git branch -d GitNewBranch
+7.$ git status
+
+GIT ASSIGNMENT 4
+
+1.$ git status
+2.$ git branch GitWork1
+3.$ git checkout GitWork1
+4.$ touch hello.xml
+5.$ echo "<html> </html>" >> hello1.xml
+6.$ git status
+7.$ git commit -m "changes"
+8.$ git add
+9.$ git commit -m "changes"
+10.$ git status
+11.$ git checkout 'master'
+12.$ touch hello.xml
+13.$ echo "<html> <head> </head> </html>" >> hello1.xml
+14.$ git add
+15.$ git commit -m "changes"
+16.$ git status
+17.$ git log --oneline --decorate --graph --all
+18.$ git diff master..GitWork1
+19.$ git merge GitWork1
+20.$ git status
+21.$ vi hello.xml
+22.$ git add
+23.$ git commit -m "removed errors"
+24.$ git status
+25.$ vi gitignore
+26.$ git add
+27.$ gitcommit -m "added .gitignore file"
+28.$ git branch
+29.$ git branch -d GitWork1
+30.$ git branch
+31.$ git log --oneline --decorate --graph
+
+ASSIGNMENT 5
+
+1.$ git status
+2.$ git branch
+3.$ git pull origin master
+4.$ git push origin master
+
+
+
+
+
