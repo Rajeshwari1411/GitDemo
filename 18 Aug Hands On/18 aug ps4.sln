@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 aug ps4", "18 aug ps4\18 aug ps4.csproj", "{BFA2391F-46CE-4CB6-B019-95F9380807CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA2391F-46CE-4CB6-B019-95F9380807CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA2391F-46CE-4CB6-B019-95F9380807CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA2391F-46CE-4CB6-B019-95F9380807CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA2391F-46CE-4CB6-B019-95F9380807CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37CE0EDB-5E1B-493D-935E-4686BA96CAE9}
+	EndGlobalSection
+EndGlobal
