@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library1
+namespace Class Library1
 {
     public class Category
     {
