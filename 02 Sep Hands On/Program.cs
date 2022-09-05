@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Library1;
 
-namespace _2handsson
+namespace Sep 02 Handson
 {
     internal class Program
     {
