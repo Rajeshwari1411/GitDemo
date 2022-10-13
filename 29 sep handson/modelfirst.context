@@ -1,0 +1,23 @@
+﻿namespace data
+{
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Infrastructure;
+    
+    public partial class modelfirstContainer : DbContext
+    {
+        public modelfirstContainer()
+            : base("name=modelfirstContainer")
+        {
+        }
+    
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            throw new UnintentionalCodeFirstException();
+        }
+    
+        public virtual DbSet<borrow> borrows { get; set; }
+        public virtual DbSet<loan> loans { get; set; }
+        public virtual DbSet<book> books { get; set; }
+    }
+}
